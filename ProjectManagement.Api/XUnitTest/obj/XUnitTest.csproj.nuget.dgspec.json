@@ -1,0 +1,461 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\XUnitTest\\XUnitTest.csproj": {}
+  },
+  "projects": {
+    "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Api\\ProjectManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Api\\ProjectManagement.Api.csproj",
+        "projectName": "ProjectManagement.Api",
+        "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Api\\ProjectManagement.Api.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data.Implementation\\ProjectManagement.Data.Implementation.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data.Implementation\\ProjectManagement.Data.Implementation.csproj"
+              },
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data\\ProjectManagement.Data.Interfaces.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data\\ProjectManagement.Data.Interfaces.csproj"
+              },
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj"
+              },
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Shared\\ProjectManagement.Shared.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Shared\\ProjectManagement.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data.Implementation\\ProjectManagement.Data.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data.Implementation\\ProjectManagement.Data.Implementation.csproj",
+        "projectName": "ProjectManagement.Data.Implementation",
+        "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data.Implementation\\ProjectManagement.Data.Implementation.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data\\ProjectManagement.Data.Interfaces.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data\\ProjectManagement.Data.Interfaces.csproj"
+              },
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj"
+              },
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Shared\\ProjectManagement.Shared.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Shared\\ProjectManagement.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data\\ProjectManagement.Data.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data\\ProjectManagement.Data.Interfaces.csproj",
+        "projectName": "ProjectManagement.Data.Interfaces",
+        "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data\\ProjectManagement.Data.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj",
+        "projectName": "ProjectManagement.Entities",
+        "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Shared\\ProjectManagement.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Shared\\ProjectManagement.Shared.csproj",
+        "projectName": "ProjectManagement.Shared",
+        "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Shared\\ProjectManagement.Shared.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Entities\\ProjectManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\XUnitTest\\XUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\XUnitTest\\XUnitTest.csproj",
+        "projectName": "XUnitTest",
+        "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\XUnitTest\\XUnitTest.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\XUnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Api\\ProjectManagement.Api.csproj": {
+                "projectPath": "F:\\Project\\Sujatha_Doddarangappa_Sprint-3\\ProjectManagement.Api\\ProjectManagement.Api\\ProjectManagement.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityFramework.CodeFirst": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq.AutoMock": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RazorPager": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
